@@ -1,0 +1,29 @@
+ public static void Rellenarmatrizmanual(int matriz[][])
+    {
+        int i,j;
+        
+        i=0;
+        do
+        {
+            j=0;
+            do
+            {   matriz[i][j]=cosabajotope;
+               
+                do
+                {
+                  System.out.println("Ingrese el valor de COSA MATRICIAL en posicion"+(i+1)+" "+(j+1)+" menor a topebajo y mayor a topealto");
+                   matriz[i][j]=entrada.nextInt();
+                   if(matriz[i][j]<topebajo||matriz[i][j]>topealto)
+                           {
+                               System.out.println("Dato invalido, por favor intente nuevamente.");                               
+                           }
+                }
+                while(matriz[i][j]<topebajo ||matriz[i][j]>topealto);
+                
+                j=j+1;
+            }
+            while(j<topecolumna);
+            i=i+1;
+        }
+        while(i<topefila);
+    }
