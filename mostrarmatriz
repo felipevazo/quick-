@@ -1,0 +1,20 @@
+ public static void Mostrarmatriz(int matriz[][])
+    {
+        int i,j;
+        System.out.println("La matriz de asdasd");
+        i=0;
+        do
+        {
+            j=0;
+            do
+            {
+                System.out.print(matriz[i][j]+" ");
+                j=j+1;
+            }
+            while(j<tope);
+            i=i+1;
+            System.out.println(" ");
+        
+        }
+        while(i<tope);
+    }
