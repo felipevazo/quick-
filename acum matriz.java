@@ -37,11 +37,11 @@ static Scanner entrada=new Scanner(System.in);
                
                 j=j+1;
             }
-            while(j<tope*tope);
+            while(j<matriz[m].length);
             i=i+1;
         
         }
-        while(i<tope);
+        while(i<matriz.length);
         
     
        
