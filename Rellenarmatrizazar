@@ -1,0 +1,24 @@
+   public static void Rellenarmatrizazar(int matriz[][])
+    {
+        int i,j;
+        Random azar=new Random(2);
+        /*
+        Ingresar tope de azar
+        */
+        i=0;
+        do
+        {
+            j=0;
+            do
+            {
+                matriz[i][j]=azar.nextInt();
+                j=j+1;
+            }
+            while(j<topecolumna);
+            i=i+1;
+        }
+        while(i<topefila);
+    }
+          
+    
+    
