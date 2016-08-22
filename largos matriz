@@ -1,0 +1,7 @@
+matriz.length;
+/* Corresponde a largo filas matriz
+*/
+matriz[i].lenth;
+/*
+Corresponde a  largo columnas matriz 
+*/
