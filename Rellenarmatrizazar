@@ -14,10 +14,10 @@
                 matriz[i][j]=azar.nextInt();
                 j=j+1;
             }
-            while(j<topecolumna);
+            while(j<matriz[m].length);
             i=i+1;
         }
-        while(i<topefila);
+        while(i<matriz.length);
     }
           
     
